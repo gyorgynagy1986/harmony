@@ -13,7 +13,7 @@ const text = {
 
 const Header = () => {
   return (
-    <div className={Styles.container}>
+    <header className={Styles.container}>
         <div className={Styles.headerContainer}>
             <div className={Styles.leftContainer}>
                <h1 className={Styles.h1}>{text.header1}<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{text.header2}</h1>
@@ -29,7 +29,7 @@ const Header = () => {
             </div>
 
         </div>
-    </div>
+    </header>
   )
 }
 
