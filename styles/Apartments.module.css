@@ -1,0 +1,103 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 150px;
+    background-color: #d9d9d923;
+    display: inline-block;
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
+}
+
+.contentContainer  {
+    margin-inline: auto;
+    margin-top: 100px;
+    width: 100%;
+    max-width:1320px;
+}
+
+.h1 {
+
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    letter-spacing: -0.1em;
+
+    color: rgba(81, 81, 81, 0.85);
+
+}
+
+
+/* CARD */
+
+.cardContainer  {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.apCardNav {
+    margin-inline: auto;
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    max-width: 973px;
+    height: 100%;
+    min-height: 200px;
+}
+
+.apCardNav_text {
+    min-width: 300px;
+}
+
+.h2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 54px;
+    letter-spacing: -0.1em;
+    color: rgba(154, 117, 85, 0.8);
+    cursor: pointer;
+}
+
+.h2::before {
+    content: url(../public/assets/arrow.svg);
+    margin-right: 20px;
+    
+}
+
+.apCardNav_btnContainer {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+
+.apCardNav_btn {
+    width: 100%;
+    height: 100%;
+    max-width: 163px;
+    max-height: 128px;
+
+    background: #FFFFFF;
+    opacity: 0.35;
+    box-shadow: 0px 4px 10px #CFCCC3;
+    border-radius: 3px;
+
+}
+
+
+.card {
+    margin-inline: auto;
+    width: 973px;
+    height: 387px;
+
+    background: #FFFFFF;
+    box-shadow: 2px 2px 50px 10px #EEEADE;
+    border-radius: 6px;
+    transform: translate();
+}
+

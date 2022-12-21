@@ -1,6 +1,8 @@
 import React from 'react'
 import { Button, Icon, Image, Modal } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
+import Styles from '../styles/Apartments.module.css'
+
 
 
 const ModalExampleScrollingContent = () => {
@@ -11,11 +13,11 @@ const ModalExampleScrollingContent = () => {
       open={open}
       onClose={() => setOpen(false)}
       onOpen={() => setOpen(true)}
-      trigger={<Button>Scrolling Content Modal</Button>}
+      trigger={<h2 className={Styles.h2}>Felszereltség</h2>}
     >
-      <Modal.Header>Profile Picture</Modal.Header>
+      <Modal.Header>Teljes felszereltség</Modal.Header>
       <Modal.Content image scrolling>
-        <Image size='medium' src='https://react.semantic-ui.com/images/wireframe/image.png' wrapped />
+        <Image size='medium' src='https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/static/optimized/rev-6567cf4/online-decorating/wp-content/uploads/2020/08/Modern-Apartment-Decor-.jpg' wrapped />
 
         <Modal.Description>
           <p>
@@ -55,8 +57,8 @@ const ModalExampleScrollingContent = () => {
         </Modal.Description>
       </Modal.Content>
       <Modal.Actions>
-        <Button onClick={() => setOpen(false)} primary>
-          Proceed <Icon name='chevron right' />
+        <Button style={{backgroundColor: '#7F7262'}} onClick={() => setOpen(false)} primary>
+          Bezár <Icon name='chevron right' />
         </Button>
       </Modal.Actions>
     </Modal>

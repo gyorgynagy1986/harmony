@@ -1,7 +1,7 @@
 .container {
     margin-inline: auto;
     width: 100;
-    max-width: 1440px;
+    max-width: 1320px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +20,7 @@
 .ul li {
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     letter-spacing: 0.05em;
@@ -35,19 +35,20 @@
 }
 
 .btn {
-    border: 1px solid #7F7262;
+    border:  1px  solid  #7F7262;
     border-radius: 2px;
     border-radius: 2px;
-    font-size: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 14px;
     line-height: 20px;
-    letter-spacing: 0.05em;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     cursor: pointer;
     background: transparent;
     color: #7F7262;
-    Width:159px;
-    Height:40px;
+    Width:150px;
+    Height:35px;
     margin-left: 42px;
     transition: all 125ms ease-in-out;
 }
