@@ -18,7 +18,7 @@ const Header = () => {
             <div className={Styles.leftContainer}>
                <h1 className={Styles.h1}>{text.header1}<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{text.header2}</h1>
                <button className={Styles.btn}>{text.btn}</button>
-               <p className={Styles.txt}><span className={Styles.span}> Lorem ipsum dolor sit</span> amet consectetur.Et urna tempor justo egestas diam mattis auctor.Etiam ullamcorper mi pretium at aenean in tempus dolor</p>      
+               <p className={Styles.txt}><span className={Styles.span}> Lorem ipsum dolor sit</span> amet consectetur.Et urna tempor justo egestas diam mattis auctor.Etiam ullamcorper mi pretium at aenean in tempus dolor.Etiam ullamcorper mi pretium at aenean in tempus dolor.</p>      
             </div>
             <div className={Styles.rightContainer}>
                     <Image
