@@ -1,0 +1,90 @@
+
+.container {
+    margin-top: 150px;
+}
+
+.headerContainer {
+    margin-inline: auto;
+    max-width:1440px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.leftContainer {
+    width: 50%;
+}
+
+.image {
+    width: 90%;
+    height: 100%;
+    max-width: 534px;
+    max-height: 632px;
+}
+
+.rightContainer  {
+    justify-content: flex-end;
+    display: flex;
+    width: 50%;
+    margin-right: -10px;
+}
+
+.h1 {
+    margin-bottom: 116px;
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 119px;
+    letter-spacing: -0.1em;
+    color: rgba(81, 81, 81, 0.85);
+
+}
+
+.btn {
+    margin-bottom: 99px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    width: 180px;
+    height: 47px;
+    background: #7F7262;
+    border-radius: 4px;
+    box-shadow: 0px 15px 25px -4px rgba(150, 150, 150, 0.24);
+    transition: all 125ms ease-in-out;
+}
+
+.btn:hover {
+    background: #918373;
+}
+
+
+.txt {
+    font-family: 'Old Standard TT';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    /* or 165% */
+    letter-spacing: 0.05em;
+}
+
+.span {
+    font-family: 'Old Standard TT';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 165% */
+
+    letter-spacing: 0.05em;
+
+    color: #6D5138;
+
+}
