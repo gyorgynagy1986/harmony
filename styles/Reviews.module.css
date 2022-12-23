@@ -1,0 +1,139 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+    display: inline-block;
+}
+
+.contentContainer  {
+    margin-inline: auto;
+    margin-top: 100px;
+    width: 100%;
+    max-width:1120px;
+}
+
+.h1 {
+
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    letter-spacing: -0.1em;
+    color: rgba(81, 81, 81, 0.85);
+
+}
+
+.review_card_container {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.review_card_back {
+    position: relative;
+    width: 100%;
+    max-width: 748px;
+    height: 288px;
+    background: #7F7262;
+    border-radius: 3px;
+}
+
+.review_card_front {
+    top: -20px;
+    right: -20px;
+    position:absolute;
+    padding: 22px 30px 30px 30px;
+    width: 100%;
+    max-width: 748px;
+    height: 288px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 3px;
+}
+
+.review_card_header {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: -5px;
+}
+
+.review_card_header h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    letter-spacing: -0.05em;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #515151;
+    transition: all 300ms ease-in-out;
+
+}
+
+.review_card_contry {
+    margin-bottom: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: -0.05em;
+
+    color: rgba(109, 81, 56, 0.99);
+}
+
+.review_card_text {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 190.68%;
+    /* or 29px */
+    
+    letter-spacing: 0.02em;
+    
+    color: #515151;
+}
+
+.review_card_toogle_btns {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    width: 100%;
+    height: 50px;
+    max-width: 748px;
+    margin-inline: auto;
+    padding-left: 20px;
+}
+
+.review_card_toogle_btns span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 27px;
+    letter-spacing: -0.05em;
+    color: #515151;
+    margin-right: 15px;
+    cursor: pointer;
+    padding: 10px 10px 0px 10px;
+    transition: all 125ms ease-in-out;
+    border-bottom: 1px solid #8d1a1a00;
+
+}
+
+
+
+.review_card_toogle_btns span:hover {
+    border-bottom: 1px solid #515151; ;
+    color: #363636;
+}
+
+.underline {
+    border-bottom: 1.4px solid #515151 !important;
+}

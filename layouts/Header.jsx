@@ -7,9 +7,9 @@ const text = {
     header1: "Harmony",
     header2: "Apartments",
     btn: "kapcsolat",
-    text: "Lorem ipsum dolor sit amet consectetur.Et urna tempor justo egestas diam mattis auctor.Etiam ullamcorper mi pretium at aenean in tempus dolor"
+    firstItalic: 'Lorem ipsum dolor sit',
+    text: "amet consectetur. Et urna tempor justo egestas diam mattis auctor.Etiam ullamcorper mi pretium at aenean in tempus dolor. Etiam ullamcorper mi pretium at aenean in tempus dolor"
 }
-
 
 const Header = () => {
   return (
@@ -18,7 +18,7 @@ const Header = () => {
             <div className={Styles.leftContainer}>
                <h1 className={Styles.h1}>{text.header1}<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{text.header2}</h1>
                <button className={Styles.btn}>{text.btn}</button>
-               <p className={Styles.txt}><span className={Styles.span}> Lorem ipsum dolor sit</span> amet consectetur.Et urna tempor justo egestas diam mattis auctor.Etiam ullamcorper mi pretium at aenean in tempus dolor.Etiam ullamcorper mi pretium at aenean in tempus dolor.</p>      
+               <p className={Styles.txt}><span className={Styles.span}> {text.firstItalic}</span>{text.text}</p>      
             </div>
             <div className={Styles.rightContainer}>
                     <Image
