@@ -1,15 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&family=Old+Standard+TT:ital@0;1&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&family=Old+Standard+TT:ital@0;1&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
 
 
 * {
     box-sizing: border-box;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 li {
   list-style: none;
+  color: inherit;
 }
 
 a {
@@ -20,3 +25,22 @@ a {
 :root {
   --main-size:: 1440px;
 }
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  padding: 20px;
+  color: transparent !important;
+  z-index: 1;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  padding: 20px;
+  color: transparent !important;
+  z-index: 1;
+}
+
+:root {
+  --swiper-theme-color: #6D5138 !important;
+}
+
+
+
