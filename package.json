@@ -9,12 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/lab": "^5.0.0-alpha.114",
+    "@mui/material": "^5.11.2",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest",
+    "@mui/styled-engine-sc": "^5.11.0",
+    "@mui/system": "^5.11.2",
+    "@mui/x-date-pickers": "^5.0.12",
     "@next/font": "13.0.7",
+    "date-fns": "^2.29.3",
+    "moment": "^2.29.4",
     "next": "13.0.7",
     "react": "18.2.0",
+    "react-calendar": "^4.0.0",
+    "react-date-range": "^1.4.0",
+    "react-datepicker": "^4.8.0",
     "react-dom": "18.2.0",
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.4",
+    "strftime": "^0.10.1",
     "styled-components": "^5.3.6",
     "swiper": "^8.4.5"
   }
