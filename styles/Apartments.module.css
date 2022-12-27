@@ -58,7 +58,7 @@
     font-size: 35px;
     line-height: 54px;
     letter-spacing: -0.1em;
-    color: rgba(154, 117, 85, 0.8);
+    color: hsla(28, 29%, 47%, 0.8);
     cursor: pointer;
     transition: all 125ms ease-in-out;
 }
