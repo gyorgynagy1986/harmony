@@ -12,6 +12,7 @@ const textContent = [
 
 const ReviewCard = ( {changeReview} ) => {
 
+
   return (
     <div className={Styles.review_card_back}>
         <div className={Styles.review_card_front}>
