@@ -31,7 +31,8 @@
     "semantic-ui-react": "^2.1.4",
     "strftime": "^0.10.1",
     "styled-components": "^5.3.6",
-    "swiper": "^8.4.5"
+    "swiper": "^8.4.5",
+    "vercel": "^28.10.1"
   },
   "devDependencies": {
     "dotenv-webpack": "^8.0.1"
