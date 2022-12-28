@@ -32,3 +32,15 @@ export default function Home() {
     </>
   )
 }
+
+
+export async function getServerSideProps() {
+  
+  console.log(process.env.SC_KEY)
+  
+  return {
+    props: {
+      hello: 'w'
+    }
+  }
+}
