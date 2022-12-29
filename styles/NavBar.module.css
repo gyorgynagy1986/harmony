@@ -16,6 +16,8 @@
     width: auto;
     height: 100%;
     display: flex;
+    padding: 0 !important;
+
 }
 
 .ul li:not(:last-child) {
