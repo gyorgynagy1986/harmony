@@ -1,0 +1,85 @@
+.container {
+    width: 100%;
+    max-width:1320px;
+    margin-inline: auto;
+    padding-bottom: 10px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.content h3 {
+    
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: -0.05em;
+    color: #515151;
+    margin: 0px 0px 22px 0px;
+}
+
+.content h4 {
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.05em;
+    margin: 0;
+    color: #515151;
+    margin: 0px 0px 22px 0px;
+
+}
+
+.content  h5 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #333333;
+    margin: 0px 0px 61px 0px;
+    text-align: center;
+}
+
+
+.logoContainer {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footerContent {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 17px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.274);
+    margin-bottom: 24px;
+}
+
+.ul {
+    display: flex;
+    gap: 1rem;
+    padding: 0 !important;
+}
+
+.ul li a {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: #515151;
+
+}
+
