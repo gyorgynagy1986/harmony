@@ -1,7 +1,7 @@
 import React from 'react'
 import Styles from '../styles/NavBar.module.css'
 import Image from 'next/image'
-import logo from '../public/assets/logoNav.svg'
+import logo from '../public/assets/logo.svg'
 import Link from 'next/link'
 // import styled from 'styled-components'
 
@@ -20,6 +20,8 @@ const NavBar = () => {
             </ul>
           </div>
           <Image
+            className={Styles.logo}
+            style={{ height: 'auto'}}
             src={logo}
             alt="Harmony apartments logo"
           />

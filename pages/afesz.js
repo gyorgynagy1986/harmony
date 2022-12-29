@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-const afesz = () => {
+const Afesz = () => {
   return (
     <>
         <Head>
@@ -15,4 +15,4 @@ const afesz = () => {
   )
 }
 
-export default afesz
+export default Afesz

@@ -1,4 +1,6 @@
 .container {
+    padding-left: 2%;
+    padding-right: 2%;
     margin-inline: auto;
     width: 100;
     max-width: 1320px;
@@ -7,9 +9,36 @@
     align-items: center;
 }
 
+@media screen and (max-width: 998px) {
+    .container {
+        justify-content: center;
+
+     }
+}
+
+
+
+.logo {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+}
+
+@media screen and (max-width: 998px) {
+    .logo {
+        max-width: 238px;
+     }
+}
+
 .prefix_ul {
     width: auto;
 
+}
+
+@media screen and (max-width: 998px) {
+    .ul li {
+        display: none;
+     }
 }
 
 .ul{
@@ -63,4 +92,10 @@
 .btn:hover {
     background: #7F7262;
     color: white;
+}
+
+@media screen and (max-width: 998px) {
+    .btn  {
+        display: none;
+     }
 }

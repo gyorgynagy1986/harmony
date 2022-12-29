@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-const faq = () => {
+const Faq = () => {
   return (
     <>
     <Head>
@@ -15,4 +15,4 @@ const faq = () => {
   )
 }
 
-export default faq
+export default Faq
