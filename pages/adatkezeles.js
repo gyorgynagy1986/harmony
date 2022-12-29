@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-const adatkezeles = () => {
+const Adatkezeles = () => {
   return (
     <>
         <Head>
@@ -15,4 +15,4 @@ const adatkezeles = () => {
   )
 }
 
-export default adatkezeles
+export default Adatkezeles
