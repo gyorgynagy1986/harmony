@@ -28,20 +28,29 @@ a {
 }
 
 .swiper-button-prev, .swiper-rtl .swiper-button-next {
-  padding: 20px;
-  color: transparent !important;
-  z-index: 1;
+  left: 5px;
+    right: auto;
+    padding: 30px;
+    top: 121px;
+    color: transparent !important;
+    z-index: 1;
 }
 
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
-  padding: 20px;
+  right: 6px !important;
+  top: 121px !important;
+  left: auto !important;
   color: transparent !important;
-  z-index: 1;
+  padding: 30px;
+
 }
 
 :root {
-  --swiper-theme-color: #6D5138 !important;
+  --swiper-theme-color: #927B67 !important;
 }
 
 
 
+.mySwiper {
+  min-height: 280px;
+}

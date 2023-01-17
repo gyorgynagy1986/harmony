@@ -44,10 +44,10 @@ const CardContent = ( {button} ) => {
   return (
    <>
       <div className={Styles.h2Cardcontent_container}>
-        <h2 className={Styles.h2Cardcontent}>{setTitle}</h2>
-        <Image src={memberIcon} alt={'szoba család részére'}/>
+          <h2 className={Styles.h2Cardcontent}>{setTitle}</h2>
+        <Image className={Styles.image_members} src={memberIcon} alt={'szoba család részére'}/>
       </div>
-      <div className={Styles.icon_containers}>
+      <div className={Styles.icon_containers_separate}>
         <div className={Styles.icon_container_items}><Image src={icon9}/><p>{beds.b1}</p></div>
         <div className={Styles.icon_container_items}>
             {button === '1' ? <Image src={sofa}/> : '' }

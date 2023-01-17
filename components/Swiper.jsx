@@ -18,6 +18,7 @@ import "swiper/css/navigation";
 import "swiper/css/effect-fade";
 
 
+
 export default function App( {button}) {
   return (
     <>
@@ -35,54 +36,54 @@ export default function App( {button}) {
             <Image
                 src={button === '1' ? Photo1 : '' | button === '2' ?  Photo2 : '' |  button === '3' ? Photo3 : '' }
                 alt="Harmony apartments"
-                width={331}
-                height={271}
-                style={{marginLeft: '60px', borderRadius: '2px'}}
+                width={309}
+                height={245}
+                style={{marginLeft: '70px', borderRadius: '4px'}}
             /> 
         </SwiperSlide>
         <SwiperSlide>    
             <Image
                 src={button === '1' ? Photo3 : '' | button === '2' ?  Photo4 : '' |  button === '3' ? Photo5 : ''}
                 alt="Harmony apartments"
-                width={331}
-                height={271}
-                style={{marginLeft: '60px', borderRadius: '4px'}}
+                width={309}
+                height={245}
+                style={{marginLeft: '70px', borderRadius: '4px'}}
             /> 
         </SwiperSlide>
         <SwiperSlide>    
             <Image
                 src={Photo3}
                 alt="Harmony apartments"
-                width={331}
-                height={271}
-                style={{marginLeft: '60px', borderRadius: '4px'}}
+                width={309}
+                height={245}
+                style={{marginLeft: '70px', borderRadius: '4px'}}
             /> 
         </SwiperSlide>
         <SwiperSlide>    
             <Image
                 src={Photo4}
                 alt="Harmony apartments"
-                width={331}
-                height={271}
-                style={{marginLeft: '60px', borderRadius: '4px'}}
+                width={309}
+                height={245}
+                style={{marginLeft: '70px', borderRadius: '4px'}}
             /> 
         </SwiperSlide>
         <SwiperSlide>    
             <Image
                 src={Photo5}
                 alt="Harmony apartments"
-                width={331}
-                height={271}
-                style={{marginLeft: '60px', borderRadius: '4px'}}
+                width={309}
+                height={245}
+                style={{marginLeft: '70px', borderRadius: '4px'}}
             /> 
         </SwiperSlide>
         <SwiperSlide>    
             <Image
                 src={Photo6}
                 alt="Harmony apartments"
-                width={331}
-                height={271}
-                style={{marginLeft: '60px', borderRadius: '4px'}}
+               width={309}
+                height={245}
+                style={{marginLeft: '70px', borderRadius: '4px'}}
             /> 
         </SwiperSlide>
       </Swiper>
