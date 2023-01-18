@@ -25,6 +25,13 @@
    
 }
 
+@media screen and (max-width: 800px) {
+    .h1{
+        text-align: center;
+        font-size: 52px;
+    }
+}
+
 .map {
     margin-top: 39px;
     width: 100%;
@@ -32,6 +39,8 @@
     display: flex;
     justify-content: center;
 }
+
+
 
 .nav {
     margin-top: 66px;
@@ -45,6 +54,15 @@
     gap: 2rem;
     padding: 0 !important;
     height: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .nav ul {
+        gap: 1.5rem;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    } 
 }
 
 .nav li {

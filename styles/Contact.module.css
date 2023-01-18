@@ -5,13 +5,39 @@
     background-color: #d9d9d923;
     display: inline-block;
     clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 93%);
+    padding-left: 32px;
+    padding-right: 32px;
 }
+
+@media screen and (max-width: 1026px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .container{
+        clip-path:none;
+        padding-bottom: 100px;
+    }
+}
+
+
 
 .contentContainer  {
     margin-inline: auto;
     margin-top: 150px;
     width: 100%;
     max-width:1320px;
+}
+
+@media screen and (max-width: 800px) {
+    .contentContainer  {
+        margin-top: 100px;
+    }
+
 }
 
 .h1 {
@@ -23,14 +49,20 @@
     line-height: 79px;
     letter-spacing: -0.1em;
     color: rgba(81, 81, 81, 0.85);
+}
 
+@media screen and (max-width: 800px) {
+    .h1{
+        text-align: center;
+        font-size: 52px;
+        line-height: 60px;
+    }
 }
 
 .infocontainer {
     width: 100%;
     margin-top: 150px;
-    margin-inline: auto
-;
+    margin-inline: auto;
     max-width: 1207px;
     height: 550px;
     display: flex;
@@ -40,9 +72,35 @@
     padding: 2rem;
 }
 
+@media screen and (max-width: 800px) {
+    .infocontainer {
+        max-width: 660px;
+        height: 550px;
+        flex-direction: column;
+        height: auto;
+        margin-top: 50px;
+    }
+}
+
 .infocontainerText {
  width: 60%;
  padding-right: 10rem;
+}
+
+@media screen and (max-width: 1182px) {
+    .infocontainerText {
+        width: 60%;
+        padding-right: 2rem;
+       }
+
+}
+
+@media screen and (max-width: 800px) {
+    .infocontainerText {
+        width: 100%;
+        text-align: center;
+        padding-right: unset;
+       }
 }
 
 .infocontainerText h2{
@@ -71,7 +129,28 @@
     width: 40%;
     padding-top: 2rem;
     padding-left: 4rem;
-    border-left: 1px solid #927B67;
+    border-left: 1px solid #927b6763;
+}
+
+
+@media screen and (max-width: 1182px) {
+    .infocontainerinput {
+        padding-left: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .infocontainerinput {
+        margin-top: 5rem;
+        width: 100%;
+        padding-top: 4rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        border-top: 1px solid #927b6763;
+        border-left: unset;
+    } 
+
 }
 
 .infocontainerTextSmall {
@@ -79,6 +158,11 @@
     padding-left: 3rem;
 }
 
+@media screen and (max-width: 800px) {
+    .infocontainerTextSmall {
+        padding-left: unset;
+    }
+}
 .infocontainerTextSmall p {
     font-family: 'Open Sans';
     font-style: normal;
@@ -184,6 +268,13 @@
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 800px) {
+    .inputBtn {
+        margin-top: 3rem;
+        width: 100%;
+    }
+}
+
 .inputBtnColor {
     background-color: #90CDD6;
 }
@@ -197,6 +288,19 @@
     gap: 3rem;
 }
 
+@media screen and (max-width: 800px) {
+    .imageContainer {
+        margin-top: 50px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items:  unset;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+
 .imageContainer img {
     cursor: pointer;
+    width: 90%;
 }
