@@ -35,7 +35,7 @@ const isMobile = useMediaQuery({ query: '(max-width: 800px)' });
       </Head>
       <Header />
       <Apartments />
-      {isMobile ?  <Reviews  /> : <NewReviewModule />}
+      {isMobile ? <Reviews  /> : <NewReviewModule />}
       <Contact />
       <Direction />
     </>
