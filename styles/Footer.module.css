@@ -3,6 +3,8 @@
     max-width:1320px;
     margin-inline: auto;
     padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .content {
@@ -12,6 +14,15 @@
     flex-direction: column;
     margin-bottom: 100px;
 }
+
+@media screen and (max-width: 1026px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+}
+
 
 .content h3 {
     
@@ -62,6 +73,14 @@
     padding-bottom: 17px;
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.274);
     margin-bottom: 24px;
+}
+
+@media screen and (max-width: 1026px) {
+    .footerContent {
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        align-items: center;
+    }
 }
 
 .ul {

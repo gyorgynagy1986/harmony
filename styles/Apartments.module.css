@@ -7,6 +7,8 @@
     clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 93%);
     padding-left: 32px;
     padding-right: 32px;
+    position: relative;
+    z-index: 0;
 }
 
 @media screen and (max-width: 1026px) {
@@ -17,9 +19,28 @@
     }
 }
 
+@media screen and (max-width: 1026px) {
+    .container {
+        padding-bottom: 100px;
+        margin-bottom: 0;
+    }
+}
 
 
 @media screen and (max-width: 767px) {
+    .homeIcon {
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        display: none;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 800px) {
     .container{
         clip-path:none;
     }
@@ -34,19 +55,16 @@
 }
 
 .h1 {
-
     font-family: 'Old Standard TT';
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
     line-height: 79px;
     letter-spacing: -0.1em;
-
     color: rgba(81, 81, 81, 0.85);
-
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
     .h1{
         text-align: center;
         font-size: 52px;
@@ -138,6 +156,7 @@
 
 .apCardNav_btn {
     width: 100%;
+    min-height: 130px;
     height: 100%;
     max-width: 163px;
     max-height: 128px;
@@ -149,7 +168,7 @@
     transition: all 200ms ease-in-out;
 }
 
-@media screen and (max-width: 1026px) {
+@media screen and (max-width: 600px) {
     .apCardNav_btn {
         min-height: 100px;
         width: 96px;
@@ -159,11 +178,8 @@
 }
 
 
-
-
 .apCardNav_btn:hover {
     box-shadow: 0px 4px 10px #8d8b87;
-
 }
 
 
@@ -173,7 +189,7 @@
     gap: 10px;
 }
 
-@media screen and (max-width: 1026px) {
+@media screen and (max-width: 600px) {
     .btn_content {
         flex-direction: column;
         text-align: center;
@@ -190,7 +206,7 @@
 
 
 
-@media screen and (max-width: 1026px) {
+@media screen and (max-width: 600px) {
     .btn_content:nth-child(2) {
         display: none;
     }
@@ -198,10 +214,9 @@
 
 .btn_content:last-child {
     margin-top: 5px; 
-    display: none;
 }
 
-@media screen and (max-width: 1026px) {
+@media screen and (max-width: 600px) {
     .btn_content:last-child {
         display: none;
     }
@@ -233,11 +248,29 @@
 @media screen and (max-width: 1026px) {
     .card {
         height: 100%;
-        max-width: 360px;
+        max-width: 660px;
     }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 1026px) {
+   
+    .card {
+        margin-bottom: 5rem;
+    }
 
+    .h2title {
+        padding-top: 20px;
+        font-size: 2.5rem;
+    }
+
+    .card_container {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        padding: 60px 65px 40px 65px;
+    }
+   
+  }
 
 .card_container {
     width: 100%;
@@ -247,13 +280,15 @@
     display: flex;
 }
 
-@media screen and (max-width: 1026px) {
+
+
+@media screen and (max-width: 600px) {
     .card_container {
+        border: none;
         flex-direction: column;
         align-items: center;
-        border: none;
         position: relative;
-        padding-top: 50px;
+        padding-top: 2rem;
     }
 }
 
@@ -317,17 +352,12 @@
 }
 
 
-
-
-
 .icon_container_items {
     width: 100%;
     display: flex;
     align-items: center;
     gap:10px;
 }
-
-
 
 
 .icon_container_items p {
@@ -362,8 +392,11 @@
 @media screen and (max-width: 1026px) {
     .h2Cardcontent {
         position: absolute;
+        display: flex;
         top: 0;
-        left: 10%;
+        justify-content: center;
+        width: 100%;
+        left: 0;
         font-size: 23px;
     }
 }

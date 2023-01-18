@@ -6,7 +6,6 @@ import Link from 'next/link'
 import booking from '../public/assets/booking.svg'
 import szallas from '../public/assets/szallas.svg'
 
-
 const Contact = () => {
   
 const [title, setTitle] = useState(false);
@@ -18,16 +17,17 @@ const textcontent = {
   textSent: 'Levelét sikeresen továbbítottuk. A lehető leghamarabb felvesszük önnel a kapcsolatot. Kösöznjük a türelmét.'
 };
 
-console.log(textcontent.title)
-
   return (
     <div id='' className={Styles.container}>
         <div className={Styles.contentContainer}>
         <h1 className={Styles.h1}>Lépj velünk Kapcsolatba</h1>
         <div className={Styles.infocontainer}>
             <div className ={Styles.infocontainerText}>
-              <h2>{title === false ? textcontent.title : textcontent.titleAfterSend}</h2>
-              <p>{title === false ? textcontent.text : textcontent.textSent}</p>
+              <div>
+                <h2>{title === false ? textcontent.title : textcontent.titleAfterSend}</h2>
+                <p>{title === false ? textcontent.text : textcontent.textSent}</p>
+              </div>
+              
               <div className ={Styles.infocontainerTextSmall}>
                 <div className ={Styles.smallCont}>
                   <p>Foglalás</p>

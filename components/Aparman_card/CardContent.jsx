@@ -44,7 +44,7 @@ const CardContent = ( {button} ) => {
   return (
    <>
       <div className={Styles.h2Cardcontent_container}>
-          <h2 className={Styles.h2Cardcontent}>{setTitle}</h2>
+        <div className={Styles.h2Cardcontent}> <h2 className={Styles.h2title}>{setTitle}</h2> </div>
         <Image className={Styles.image_members} src={memberIcon} alt={'szoba család részére'}/>
       </div>
       <div className={Styles.icon_containers_separate}>

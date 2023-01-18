@@ -1,7 +1,8 @@
-import Image from 'next/image'
 import Styles from '../styles/Reviews.module.css'
-import Qote from '../public/assets/icons/qote.svg'
+import ReviewCardDesktop from '../components/ReviewCardDesktop'
+import Stars2 from '../public/assets/icons/starsMiddle.svg'
 import Stars from '../public/assets/icons/stars.svg'
+
 
 const textContent = [
     {name: 'Bettina', counry:'Magyarország', text:'A szállásadó nagyon kedves és segítőkész volt, a szállás nagyon modernül volt felszerelve, szuperül volt berendezve, szép és lakájos volt. A szállás elhelyezkedése is tökéletes, minden közel van hozzá, gyalog is elérhető onnan minden, ami kell.'},
@@ -10,22 +11,21 @@ const textContent = [
     {name: 'Dóra', counry:'Magyarország', text:'Tökéletes tisztaság, nagyon szép szoba! Mindennel fel van szerelve, a kávétól a mosókapszuláig mindenre gondoltak! A fürdő pedig szemben található,így tökéletes helyen van az apartman! A szállásadó nagyon kedves! Tökéletes választás, ha valaki Mórahalomon keres szállást!'},    
 ]
 
-const ReviewCard = ( {changeReview} ) => {
 
-0
+
+const NewReviewModule = () => {
   return (
-    <div className={Styles.review_card_back}>
-        <div className={Styles.review_card_front}>
-            <div className={Styles.review_card_header}>
-                <h2>{textContent[changeReview].name}</h2>
-                <p className={Styles.review_card_contry}>{textContent[changeReview].counry}</p>
-                <Image className={Styles.review_card_stars} src={Stars} alt={'review stars'}/>
-            </div>
-             <Image className={Styles.review_card_qt} src={Qote} alt={'review qote'}/>
-            <p className={Styles.review_card_text}>{textContent[changeReview].text}</p>    
+    <div id='reviews' className={Styles.container}>
+        <div className={Styles.contentContainer}>
+          <h1 className={Styles.h1}>Vélemények rólunk</h1>
+        </div>
+        <div className={Styles.review_card_container}>
+            <ReviewCardDesktop stars={Stars} name={textContent[0].name} country={textContent[0].counry}  text={textContent[0].text}/>
+            <ReviewCardDesktop stars={Stars2} name={textContent[1].name} country={textContent[1].counry}  text={textContent[1].text}/>
+            <ReviewCardDesktop stars={Stars} name={textContent[3].name} country={textContent[3].counry}  text={textContent[3].text}/>
         </div>
     </div>
   )
 }
 
-export default ReviewCard
+export default NewReviewModule

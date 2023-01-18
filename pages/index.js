@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { useMediaQuery } from 'react-responsive'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
@@ -7,11 +8,18 @@ import Apartments from '../layouts/Apartments'
 import Reviews from '../layouts/Reviews'
 import Contact from '../layouts/Contact'
 import Direction from '../layouts/Direction'
+import NewReviewModule from '../layouts/NewReviewModule'
 
 
 const inter = Inter({ subsets: ['latin'] })
 
+
+
 export default function Home() {
+
+const isMobile = useMediaQuery({ query: '(max-width: 800px)' });
+
+
   return (
     <>
       <Head>
@@ -27,7 +35,7 @@ export default function Home() {
       </Head>
       <Header />
       <Apartments />
-      <Reviews />
+      {isMobile ? <Reviews  /> : <NewReviewModule />}
       <Contact />
       <Direction />
     </>
