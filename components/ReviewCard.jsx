@@ -19,7 +19,7 @@ const ReviewCard = ( {changeReview} ) => {
             <div className={Styles.review_card_header}>
                 <h2>{textContent[changeReview].name}</h2>
                 <p className={Styles.review_card_contry}>{textContent[changeReview].counry}</p>
-                <Image className={Styles.review_card_stars} src={Stars} alt={'review stars'}/>
+                <Image height={20} className={Styles.review_card_stars} src={Stars} alt={'review stars'}/>
             </div>
              <Image className={Styles.review_card_qt} src={Qote} alt={'review qote'}/>
             <p className={Styles.review_card_text}>{textContent[changeReview].text}</p>    

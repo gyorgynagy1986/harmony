@@ -6,7 +6,7 @@ import Styles from '../styles/Contact.module.css'
 
 export default function App( {afterSernd , btnColorHandeler} ) {
   
-  const [send, setSend] = useState('küldés')
+  const [send, setSend] = useState('Üzenet küldése')
   const [query, setQuery] = useState({
     name: "",
     email: "",
@@ -18,17 +18,17 @@ export default function App( {afterSernd , btnColorHandeler} ) {
 
   const emailhandeler = () => {
     setTimeout(() => {
-      setSend('Küldés.')
+      setSend('Üzenet küldése.')
     }, "300")
     setTimeout(() => {
-      setSend('Küldés..')
+      setSend('Üzenet küldése..')
     }, "600") 
     setTimeout(() => {
-      setSend('Küldés...')
+      setSend('Üzenet küldése...')
     }, "900")
     
     setTimeout(() => {
-      setSend('Elküldve')
+      setSend('Üzenet Elküldve')
     }, "1800")
 
     setTimeout(() => {
@@ -36,7 +36,7 @@ export default function App( {afterSernd , btnColorHandeler} ) {
     }, "1800")
 
     setTimeout(() => {
-      setSend('Küldés')
+      setSend('Üzenet küldése')
     }, "20000")
     setTimeout(() => {
       afterSernd(false)
@@ -121,7 +121,7 @@ export default function App( {afterSernd , btnColorHandeler} ) {
             onChange={handleParam()}
           />
         </div>
-        <button className={ `${Styles.inputBtn} ${send.includes('Elküldve') === true ? Styles.inputBtnColor : ''}`}  type="submit">{send}</button>
+       <div className={Styles.btnContainer}> <button className={ `${Styles.inputBtn} ${send.includes('Üzenet Elküldve') === true ? Styles.inputBtnColor : ''}`}  type="submit">{send}</button></div>
       </form>
     </div>
   );

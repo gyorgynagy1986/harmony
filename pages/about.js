@@ -1,8 +1,14 @@
 import React from 'react'
 import Head from 'next/head'
+import Styles from '../styles/About.module.css'
+import Gallery from '../components/About/Gallery'
 
 
 const About = () => {
+
+
+
+
   return (
     <>
         <Head>
@@ -11,7 +17,24 @@ const About = () => {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
+    
+        <div className={Styles.container}>
+
+          <h1 className={Styles.h1}>
+            Rólunk
+          </h1>
+
+          <div  className={Styles.P_Container}>
+            <p>Lorem ipsum dolor sit amet consectetur. Faucibus odio risus sed pretium magna duis neque.Lorem ipsum dolor sit amet consectetur. Faucibus odio risus sed pretium magna duis neque. Lorem ipsum dolor sit amet consectetur. Faucibus odio risus sed pretium magna duis neque. Lorem ipsum dolor sit amet consectetur. Faucibus odio risus sed pretium magna duis neque.Lorem ipsum dolor sit amet consectetur. Faucibus odio risus sed pretium magna duis neque. Lorem ipsum dolor sit amet consectetur. Faucibus odio risus sed pretium magna duis neque. </p>
+            <p>Lorem ipsum dolor sit amet consectetur. Faucibus odio risus sed pretium magna duis neque.Lorem ipsum dolor sit amet consectetur. Faucibus odio risus sed pretium magna duis neque. Lorem ipsum dolor sit amet consectetur. Faucibus odio risus sed pretium magna duis neque.</p>
+            <p>Lorem ipsum dolor sit amet consectetur. Faucibus odio risus sed pretium magna duis neque.Lorem ipsum dolor sit amet consectetur. Faucibus odio risus sed pretium magna duis neque. Lorem ipsum dolor sit amet consectetur. Faucibus odio risus sed pretium magna duis neque.</p>
+            <p>Lorem ipsum dolor sit amet consectetur. </p>
+          </div>
+          < Gallery />
+        </div>
     </>
+
+
   )
 }
 

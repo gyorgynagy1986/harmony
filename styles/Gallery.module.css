@@ -1,0 +1,41 @@
+.gallery_container {
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+
+.h1 {
+    font-family: 'Zen Kaku Gothic New';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 53px;
+    line-height: 30px;
+    /* or 47% */
+
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #515151;
+    margin-bottom: 8rem;
+}
+
+@media screen and (max-width: 800px) {
+    .h1{
+        text-align: center;
+    }
+}
+
+.P_Container {
+    margin-inline:auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+    max-width: 1320px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 29px;
+    /* or 161% */
+    color: #333333;
+}

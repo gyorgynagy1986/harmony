@@ -1,12 +1,12 @@
 .container {
-    padding-left: 2%;
-    padding-right: 2%;
+    margin-top: 2rem;
     margin-inline: auto;
     width: 100;
     max-width: 1320px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 @media screen and (max-width: 998px) {
@@ -18,14 +18,18 @@
 
 
 .logo {
-    width: 100%;
-    max-width: 281px;
+    width: 254px;
     height: auto;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 998px) {
     .logo {
-        max-width: 239px;
+        max-width: 247px;
+        top:1rem; 
      }
 }
 
@@ -62,7 +66,21 @@
     text-transform: uppercase;
     color: #515151;
     cursor: pointer;
+
 }
+
+.ul li a {
+   transition: all .1s ease-in;
+   padding-bottom: 3px;
+   border-bottom: 1px solid #51515100;
+
+}
+
+
+.ul li a:hover {
+    border-bottom: 1px solid #51515181;
+}
+
 
 .rightContainer {
     display: flex;
@@ -70,7 +88,7 @@
 }
 
 .btn {
-    border:  1px  solid  #7F7262;
+    border:  1px  solid  #3C5549;
     border-radius: 2px;
     border-radius: 2px;
     font-family: 'Open Sans';
@@ -78,18 +96,18 @@
     font-size: 14px;
     line-height: 20px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
     background: transparent;
-    color: #7F7262;
+    color: #3C5549;
     Width:150px;
     Height:35px;
-    margin-left: 42px;
+    margin-left: 16px;
     transition: all 125ms ease-in-out;
 }
 
 .btn:hover {
-    background: #7F7262;
+    background: #3C5549;
     color: white;
 }
 
