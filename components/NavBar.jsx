@@ -1,7 +1,7 @@
 import React from 'react'
 import Styles from '../styles/NavBar.module.css'
 import Image from 'next/image'
-import logo from '../public/assets/logo.svg'
+import logo from '../public/assets/logomain.png'
 import Link from 'next/link'
 // import styled from 'styled-components'
 
