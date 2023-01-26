@@ -33,6 +33,7 @@
 }
 
 .map {
+    margin-inline: auto;
     margin-top: 39px;
     width: 100%;
     height: 100%;
@@ -47,6 +48,15 @@
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .nav  {
+        
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    } 
 }
 
 .nav ul {
@@ -83,4 +93,43 @@
 .nav li:hover {
     border-bottom: 1px solid #515151; ;
     color: #363636;
+}
+
+.nav p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #515151;
+    margin-left: 2rem;
+    cursor: pointer;
+    }
+
+
+.nav p:hover {
+    border-bottom: 1px solid #515151; ;
+    color: #363636;
+}
+
+
+@media screen and (max-width: 800px) {
+    .nav p  {
+        
+        margin-left: unset;
+    } 
+
+    .nav p:hover {
+        border-bottom: unset;
+        color: unset;
+    }
+
+    .nav li:hover {
+        border-bottom: unset;
+        color: unset;
+    }
+    
 }

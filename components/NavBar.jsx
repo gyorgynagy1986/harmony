@@ -19,16 +19,18 @@ const NavBar = () => {
                 <li><Link style={{color: '#515151'}} href="/#reviews">vélemények</Link></li>
             </ul>
           </div>
+          <Link href="/" style={{width: 'auto', height: '100%'}}>
           <Image
             className={Styles.logo}
             style={{ height: 'auto'}}
             src={logo}
             alt="Harmony apartments logo"
           />
+          </Link>
         <div className={Styles.rightContainer}>
         <ul className={Styles.ul}>
-            <li>útvonal</li>
-            <li>galéria</li>
+            <li><Link style={{color: '#515151'}} href="/#map">útvonal</Link></li>
+            <li><Link style={{color: '#515151'}} href="/gallery">galéria</Link></li>
             <li>FAQ</li>
         </ul>
         <button className={Styles.btn}>foglalás</button>

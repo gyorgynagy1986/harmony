@@ -20,8 +20,8 @@ const Header = () => {
         <div className={Styles.headerContainer}>
             <div className={Styles.leftContainer}>
                <h1 className={Styles.h1}>{text.header1}<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{text.header2}</h1>
-               <button className={Styles.btn}>{text.btn}</button>
                <p className={Styles.txt}><span className={Styles.span}> {text.firstItalic}</span>{text.text}</p>      
+               <button className={Styles.btn}>{text.btn}</button>
             </div>
             <div className={Styles.rightContainer}>
                     <Image

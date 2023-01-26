@@ -18,13 +18,14 @@ const style = {
 };
 
 export default function TransitionsModal() {
+  
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
   return (
     <div>
-      <li onClick={handleOpen}>cím</li>
+      <p onClick={handleOpen}>cím</p>
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
@@ -45,6 +46,7 @@ export default function TransitionsModal() {
             6782 Mórahalom, <br/>
             Szegedi út 20. Magyarország <br/>
             Tel: +36 70 884 0221
+            
             </Typography>
           </Box>
         </Fade>

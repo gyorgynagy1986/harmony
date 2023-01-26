@@ -12,7 +12,7 @@ const ReviewCard = ( {name, country, text, stars}  ) => {
             <div className={Styles.review_card_header}>
                 <h2>{name}</h2>
                 <p className={Styles.review_card_contry}>{country}</p>
-                <Image className={Styles.review_card_stars} src={stars} alt={'review stars'}/>
+                <Image height={20} className={Styles.review_card_stars} src={stars} alt={'review stars'}/>
             </div>
             <Image className={Styles.review_card_qt} src={Qote} alt={'review stars'}/>
             <p className={Styles.review_card_text}>{text}</p>    

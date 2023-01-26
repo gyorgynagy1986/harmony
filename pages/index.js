@@ -1,25 +1,17 @@
 import Head from 'next/head'
-import { useMediaQuery } from 'react-responsive'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.css'
 import Header from '../layouts/Header'
 import Apartments from '../layouts/Apartments'
-import Reviews from '../layouts/Reviews'
 import Contact from '../layouts/Contact'
 import Direction from '../layouts/Direction'
-import NewReviewModule from '../layouts/NewReviewModule'
-
+import ReviewPrefix from '../layouts/ReviewPrefix'
 
 const inter = Inter({ subsets: ['latin'] })
 
+// {isMobile ? <Reviews  /> : <NewReviewModule />}
 
 
 export default function Home() {
-
-const isMobile = useMediaQuery({ query: '(max-width: 800px)' });
-
-
   return (
     <>
       <Head>
@@ -31,25 +23,13 @@ const isMobile = useMediaQuery({ query: '(max-width: 800px)' });
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="preload" as="image" href="/headerPhoto.png" />
       </Head>
       <Header />
       <Apartments />
-      {isMobile ? <Reviews  /> : <NewReviewModule />}
+      <ReviewPrefix />
       <Contact />
       <Direction />
     </>
   )
 }
 
-
-export async function getServerSideProps() {
-  
-  console.log(process.env.SC_KEY)
-  
-  return {
-    props: {
-      hello: 'w'
-    }
-  }
-}

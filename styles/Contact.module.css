@@ -258,14 +258,31 @@
     outline: 1px solid #927b6749;;
 }
 
+.btnContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .inputBtn {
-    width: 104px;
-    height: 35px;
-    background: #927B67;
+    width: 200px;
+    height: 45px;
+    border-radius: 4px;
+    background: #3C5549;
     color: white;
     border: none;
     cursor: pointer;
     text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.inputBtn:hover {
+    background: #3c5549cb;
+
 }
 
 @media screen and (max-width: 800px) {
@@ -304,3 +321,5 @@
     cursor: pointer;
     width: 90%;
 }
+
+
