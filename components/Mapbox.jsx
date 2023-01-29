@@ -2,7 +2,6 @@ import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
  
 const mapkey = process.env.NEXT_PUBLIC_SCKEY_MAPBOX;
-console.log(mapkey)
 
 mapboxgl.accessToken = mapkey;
  

@@ -1,6 +1,23 @@
 .nav {
+    top: 0;
     width: 100%;
-    height: 100%;
+    height: 8rem;
+    background-color: rgb(255, 255, 255);
     padding-left: 2%;
     padding-right: 2%;
+    z-index: 111111;
+    position: fixed;
+    box-shadow: 0px 15px 30px -14px #eeeadeb2}
+
+
+@media screen and (max-width: 1100px) {
+    .nav {
+        width: 100%;
+        height: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+        z-index: 0;
+        position:relative
+
+    }
 }

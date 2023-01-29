@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&family=Old+Standard+TT:ital@0;1&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&display=swap');
 
 * {
     box-sizing: border-box;
@@ -130,3 +129,36 @@ a {
     height: auto;
     object-fit:contain;
    }
+
+
+   @media screen and (max-width: 400px) {
+   
+    .mySwiperGallery {
+      min-height: 350px;
+    }
+   
+    .swSlide img {
+      
+      max-height: 300px;
+      
+     }
+}
+
+
+body::-webkit-scrollbar {
+  width: .5em;
+  background-color: #4e0101;
+  z-index: 9999999999 !important;
+  position: relative;
+
+} 
+
+body::-webkit-scrollbar-thumb {
+ background-color: #4c49ff;
+ z-index: 9999999999 !important;
+  position: relative;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+ background-color: #73ff7a;
+}
