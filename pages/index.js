@@ -1,3 +1,4 @@
+import { lazy } from 'react'
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import Header from '../layouts/Header'
@@ -11,7 +12,10 @@ const inter = Inter({ subsets: ['latin'] })
 // {isMobile ? <Reviews  /> : <NewReviewModule />}
 
 
+
 export default function Home() {
+
+
   return (
     <>
       <Head>
@@ -25,10 +29,20 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <Header />
-      <Apartments />
-      <ReviewPrefix />
-      <Contact />
-      <Direction />
+      <main>
+        <section>
+          <Apartments />
+        </section>
+        <section>
+          <ReviewPrefix />
+        </section>
+        <section>
+         <Contact />
+        </section>
+        <section>
+         <Direction />
+        </section>
+      </main>
     </>
   )
 }
