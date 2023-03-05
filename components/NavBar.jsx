@@ -1,8 +1,9 @@
 import React from 'react'
 import Styles from '../styles/NavBar.module.css'
 import Image from 'next/image'
-import logo from '../public/assets/logo.svg'
+import logo from '../public/assets/logomain.png'
 import Link from 'next/link'
+import Modal from '../components/ModalBooking'
 // import styled from 'styled-components'
 
 // const RedLink = styled.a`
@@ -22,7 +23,6 @@ const NavBar = () => {
           <Link href="/" style={{width: 'auto', height: '100%'}}>
           <Image
             className={Styles.logo}
-            style={{ height: 'auto'}}
             src={logo}
             alt="Harmony apartments logo"
           />
@@ -31,12 +31,11 @@ const NavBar = () => {
         <ul className={Styles.ul}>
             <li><Link style={{color: '#515151'}} href="/#map">útvonal</Link></li>
             <li><Link style={{color: '#515151'}} href="/gallery">galéria</Link></li>
-            <li>FAQ</li>
+            <li><Link style={{color: '#515151'}} href="/faq">FAQ</Link></li>
         </ul>
-        <button className={Styles.btn}>foglalás</button>
+        <button className={Styles.btn}>< Modal/></button>
         </div>
       </div>
-    
   )
 }
 

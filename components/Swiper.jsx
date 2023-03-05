@@ -26,6 +26,7 @@ export default function App( {button}) {
         spaceBetween={30}
         effect={"fade"}
         navigation={true}
+        lazy={true}
         pagination={{
           clickable: true,
         }}

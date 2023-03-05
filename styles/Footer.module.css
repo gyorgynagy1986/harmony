@@ -60,7 +60,7 @@
 }
 
 
-.logoContainer {
+.socialContainer {
     display: flex;
     gap: 1.5rem;
 }
@@ -102,3 +102,7 @@
 
 }
 
+.logo {
+    width: 97px;
+    height: 42px;
+}

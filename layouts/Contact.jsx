@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react';
 import Styles from '../styles/Contact.module.css'
 import ContactGetform from '../components/ContactGetform'
 import Image from 'next/image'
@@ -6,7 +6,7 @@ import Link from 'next/link'
 import booking from '../public/assets/booking.svg'
 import szallas from '../public/assets/szallas.svg'
 
-const Contact = () => {
+const Contact = ({ targetRef }) => {
   
 const [title, setTitle] = useState(false);
 
@@ -18,7 +18,7 @@ const textcontent = {
 };
 
   return (
-    <div id='' className={Styles.container}>
+    <div id='contact' className={Styles.container}>
         <div className={Styles.contentContainer}>
         <h1 className={Styles.h1}>Lépj velünk Kapcsolatba</h1>
         <div className={Styles.infocontainer}>
@@ -42,10 +42,10 @@ const textcontent = {
                   <h5>6782 Mórahalom, <br/>Szegedi út 20. Magyarország</h5>
                 </div>
                <div className={Styles.imageContainer} >
-                  <Link href="https://www.booking.com/">
+                  <Link href="https://www.booking.com/Share-c6ODDK">
                       <Image  className ={Styles.booking}  src={booking} alt={'logos, bookind and szallas.hu'} />
                   </Link>
-                  <Link href="https://szallas.hu/">
+                  <Link href="https://szallas.hu/harmony-apartments-morahalom?gclid=Cj0KCQiAz9ieBhCIARIsACB0oGJTjxpl3sh3C1NqB7aviswXP18yktaFereEIDgoPI8SW8eiw0V71MIaAok5EALw_wcB&utm_source=clipboard&utm_medium=site&utm_campaign=share">
                       <Image  className ={Styles.szallas} src={szallas} alt={'logos, bookind and szallas.hu'} />
                   </Link>
                </div> 

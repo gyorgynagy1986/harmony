@@ -1,13 +1,13 @@
 .gallery_container {
-    margin-top: 8rem;
+    margin-top: 15rem;
     margin-bottom: 5rem;
 }
 
 .h1 {
-    font-family: 'Zen Kaku Gothic New';
+    font-family: 'Nunito';
     font-style: normal;
-    font-weight: 300;
-    font-size: 53px;
+    font-weight: 200;
+    font-size: 45px;
     line-height: 30px;
     /* or 47% */
 
@@ -22,6 +22,19 @@
     .h1{
         text-align: center;
     }
+}
+
+@media screen and (max-width: 800px) {
+    .h1{
+        font-size: 40px;
+        line-height: 50px;    }
+}
+
+@media screen and (max-width: 360px) {
+    .h1{
+        font-size: 35px;
+        line-height: 40px;  
+      }
 }
 
 .P_Container {

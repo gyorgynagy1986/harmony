@@ -4,11 +4,11 @@ import { useRouter } from 'next/router'
 
 
 import Image from 'next/image'
-import Photo1 from '../../public/assets/smallGallery/1.png'
-import Photo2 from '../../public/assets/smallGallery/2.jpg'
-import Photo3 from '../../public/assets/smallGallery/3.jpg'
-import Photo4 from '../../public/assets/smallGallery/4.jpg'
-import Photo5 from '../../public/assets/smallGallery/5.jpg'
+import Photo1 from '../../public/assets/aboutGallery/1.png'
+import Photo2 from '../../public/assets/aboutGallery/2.png'
+import Photo3 from '../../public/assets/aboutGallery/3.png'
+import Photo4 from '../../public/assets/aboutGallery/4.png'
+import Photo5 from '../../public/assets/aboutGallery/5.png'
 
 const Gallery = () => {
 

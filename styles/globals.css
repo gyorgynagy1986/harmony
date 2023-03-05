@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&family=Old+Standard+TT:ital@0;1&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
     scroll-behavior: smooth;
-}
+  }
 
 
 html, body {
@@ -130,3 +129,39 @@ a {
     height: auto;
     object-fit:contain;
    }
+
+
+   @media screen and (max-width: 400px) {
+   
+    .mySwiperGallery {
+      min-height: 350px;
+    }
+   
+    .swSlide img {
+      
+      max-height: 300px;
+      
+     }
+}
+
+
+*::-webkit-scrollbar {
+  width: .5em;
+  background-color: #44444480;
+  z-index: 100000100000000000;
+} 
+
+*::-webkit-scrollbar-thumb {
+ background-color: #3C5549;
+ height: 300px;
+ z-index: 100000010000000000;
+  border-radius: 50px;
+}
+
+.MuiModal-root {
+  z-index: 1010101010101010110 !important;
+}
+
+.css-lcgrxf{
+  border: 2px solid #3C5549 !important;
+}
