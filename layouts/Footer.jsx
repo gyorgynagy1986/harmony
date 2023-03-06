@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
           <div>
             <ul className={Styles.ul}>
-              <li> <Link rel="stylesheet" href="/faq"  > FAQ</Link></li>
+              <li> <Link rel="stylesheet" href="/faq"  > GYIK</Link></li>
               <li> <Link rel="stylesheet" href="afesz"  > ÁFÉSZ</Link></li>
               <li> <Link rel="stylesheet" href="adatkezeles"  > ADATKEZELÉS</Link></li>
             </ul>

@@ -31,7 +31,7 @@ const NavBar = () => {
         <ul className={Styles.ul}>
             <li><Link style={{color: '#515151'}} href="/#map">útvonal</Link></li>
             <li><Link style={{color: '#515151'}} href="/gallery">galéria</Link></li>
-            <li><Link style={{color: '#515151'}} href="/faq">FAQ</Link></li>
+            <li><Link style={{color: '#515151'}} href="/faq">GYIK</Link></li>
         </ul>
         <button className={Styles.btn}>< Modal/></button>
         </div>

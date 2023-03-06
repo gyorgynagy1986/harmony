@@ -35,7 +35,7 @@ export default function TransitionsModal() {
 
   return (
     <div>
-      <p onClick={handleOpen}>FOGLALÁS</p>
+      <p className={Styles.pReservation}  onClick={handleOpen}>FOGLALÁS</p>
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"

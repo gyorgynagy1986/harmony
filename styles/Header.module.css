@@ -160,9 +160,10 @@
     margin-top: 40px;
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 18px;
     line-height: 25px;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
     border: none;
     cursor: pointer;
@@ -199,8 +200,13 @@
 
   @media screen and (max-width: 767px) {
     .btn{
-      margin-top: 50px;
-      margin-bottom: 10px;
+        width: 200px;
+        height: 45px; 
+        margin-top: 50px;
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 16.5px;
+        letter-spacing: 0.04em;
     }
 }
 
