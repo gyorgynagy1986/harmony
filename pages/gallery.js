@@ -1,9 +1,11 @@
 import React from 'react'
 import Head from 'next/head'
+import { Inter } from '@next/font/google'
 import Styles from '../styles/Gallery.module.css'
 import PhotoGallery from '../components/Gallery/Gallery'
 
 
+const inter = Inter({ subsets: ['latin'] })
 
 
 const Gallery = () => {

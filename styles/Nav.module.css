@@ -17,14 +17,14 @@
         padding-right: 2%;
         z-index: 0;
         position:relative;
-        z-index: 9999999;
+        z-index: 101010101010101010101;
         top:0;
     }
 }
 
 .menu_container {
     display: none;
-    z-index: 1099999999999999999999999999999;
+    z-index: 101010101010101010101;
 
 }
 
