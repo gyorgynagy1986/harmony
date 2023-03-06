@@ -1,7 +1,7 @@
 import React from 'react'
 import Styles from '../styles/NavBar.module.css'
 import Image from 'next/image'
-import logo from '../public/assets/logomain.png'
+import logo from '../public/assets/logo.svg'
 import Link from 'next/link'
 import Modal from '../components/ModalBooking'
 // import styled from 'styled-components'
@@ -12,7 +12,7 @@ import Modal from '../components/ModalBooking'
 
 const NavBar = () => {
   return (
-      <div className={Styles.container}>
+      <div className={Styles.containerNav}>
           <div className={Styles.prefix_ul}>
             <ul className={Styles.ul}>
                 <li><Link style={{color: '#515151'}} href="/about">rólunk</Link></li>

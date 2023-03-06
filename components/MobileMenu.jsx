@@ -16,7 +16,7 @@ const slideHandeler = () => {
   return (
     <div className={Style.container}>
        <div className={Styles.menu_container}>
-            <ul className={Styles.ul}>
+            <ul className={Styles.ulDrop}>
                 <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/about">rólunk</Link></li>
                 <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/#apartments">apartmanok</Link></li>
                 <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/#reviews">vélemények</Link></li>
@@ -25,7 +25,7 @@ const slideHandeler = () => {
                 <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/#contact">kapcsolat</Link></li>
                 <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/faq">FAQ</Link></li>
             </ul>
-          <button className={Styles.btn}><Modal /></button>
+          <button className={Styles.btnContact}><Modal /></button>
         </div>
       </div>
   )
