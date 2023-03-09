@@ -119,7 +119,7 @@
     font-size: 16px;
     line-height: 161.6%;
     letter-spacing: 0.02em;
-    color: #333333;
+    color: #1f1f1f;
     margin-top: 30px;
   }
    
@@ -214,7 +214,7 @@
 .inputContainer input {
     margin-top: 5px;
     border: none;
-    border-bottom: 0.2px solid #33333325 !important;
+    border-bottom: 0.2px solid #333333c2 !important;
     height: 35px;
     padding-left: 1rem;
     font-size: 15px;
@@ -226,7 +226,7 @@
     height: 100%;
     min-height: 130px;
     border: none;
-    border-bottom: 0.2px solid #33333325 !important;
+    border-bottom: 0.2px solid #333333c2 !important;
     padding-left: 1rem;
     padding-top: 1rem;
     font-style: normal;
@@ -247,10 +247,10 @@
    
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 15px;
     line-height: 20px;
-    color: #333333;
+    color: #292929;
 }
 
 
