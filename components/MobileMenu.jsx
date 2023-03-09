@@ -21,6 +21,7 @@ const slideHandeler = () => {
                 <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/about">rólunk</Link></li>
                 <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/gallery">galéria</Link></li>
                 <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/">élmények</Link></li>
+                <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/#apartments">apartmanok</Link></li>
                 <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/">ajándék</Link></li>
                 <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/#reviews">vélemények</Link></li>
                 <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/">díjak</Link></li>
