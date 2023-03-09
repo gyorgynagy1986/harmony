@@ -10,8 +10,8 @@ const text = {
     header1: "Harmony",
     header2: "Apartments",
     btn: "kapcsolat",
-    firstItalic: 'Lorem ipsum dolor sit',
-    text: "amet consectetur. Et urna tempor justo egestas diam mattis auctor.Etiam ullamcorper mi pretium at aenean in tempus dolor. Etiam ullamcorper mi pretium at aenean in tempus dolor"
+    firstItalic: "A harmony apartments kiváló hely",
+    text: ", ahol a kényelem, az otthonosság és a nyugodt pihenés találkozik. Egy csodás kis helyszín Mórahalom központjában , a belváros szívében."
 }
 
 

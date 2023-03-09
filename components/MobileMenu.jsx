@@ -4,7 +4,7 @@ import Styles from '../styles/MobileMenu.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../public/assets/logomain.png'
-import Modal from '../components/ModalBooking'
+import Modal from '../components/ModalBookingMobile'
 
 
 const MobileMenu = ({mobileOff}) => {
@@ -17,15 +17,15 @@ const slideHandeler = () => {
     <div className={Style.container}>
        <div className={Styles.menu_container}>
             <ul className={Styles.ulDrop}>
+                <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/">főoldal</Link></li>
                 <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/about">rólunk</Link></li>
-                <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/#apartments">apartmanok</Link></li>
-                <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/#reviews">vélemények</Link></li>
-                <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/#map">útvonal</Link></li>
                 <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/gallery">galéria</Link></li>
-                <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/#contact">kapcsolat</Link></li>
-                <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/faq">FAQ</Link></li>
+                <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/">élmények</Link></li>
+                <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/">ajándék</Link></li>
+                <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/#reviews">vélemények</Link></li>
+                <li><Link onClick={slideHandeler} style={{color: '#515151'}} href="/">díjak</Link></li>
             </ul>
-          <button className={Styles.btnContact}><Modal /></button>
+          <Modal />
         </div>
       </div>
   )

@@ -1,14 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import Styles from '../styles/Gallery.module.css'
 import PhotoGallery from '../components/Gallery/Gallery'
+
+import Styles from '../styles/Gallery.module.css'
+import StylesFromAppartments from '../styles/Apartments.module.css'
+
+import Image from 'next/image'
+
+
+import apartman from '../public/assets/icons/buttons/1.svg'
+import bed from '../public/assets/icons/buttons/2.svg'
+import sofa from '../public/assets/icons/buttons/3.svg'
 
 
 const inter = Inter({ subsets: ['latin'] })
 
 
 const Gallery = () => {
+
+
+const [button, setButton] = useState('1');   
+
+console.log(button)
+
   return (
     <>
     <Head>
@@ -21,6 +36,13 @@ const Gallery = () => {
          <h1 className={Styles.h1}>
             GALÉRIA
           </h1>
+         
+          <div className={Styles.buttoncontainer}>
+            <p onClick={()=> setButton('1')} className={ button === '1' ? Styles.transformActive : Styles.transformIncative} >Családi apartman</p>
+            <p onClick={()=> setButton('2')} className={ button === '2' ? Styles.transformActive : Styles.transformIncative}>Egyhálószobás apartman</p>
+            <p onClick={()=> setButton('3')} className={ button === '3' ? Styles.transformActive : Styles.transformIncative} >Studió apartman</p>
+          </div>
+
         <PhotoGallery />
       </div>
     </>

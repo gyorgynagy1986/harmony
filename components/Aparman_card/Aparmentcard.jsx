@@ -8,7 +8,7 @@ import 'semantic-ui-css/semantic.min.css'
 import ApButtons from './Buttons'
 
 const Aparmentcard = ( ) => {
-const [button, setButton] = useState('2');   
+const [button, setButton] = useState('1');   
 
   
   return (
@@ -17,7 +17,7 @@ const [button, setButton] = useState('2');
 
             <div className={Styles.apCardNav_text}>
                 <h2 className={Styles.h2}>Árak</h2>
-                <Modal />
+                <Modal button={button}  />
             </div>
             <div className={Styles.apCardNav_btnContainer}>
                 <ApButtons setButton={setButton} button={button}  />

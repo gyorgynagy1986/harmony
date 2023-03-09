@@ -18,10 +18,6 @@ import Photo14 from '../../public/assets/photoGallery/assets/14.jpg'
 import Photo15 from '../../public/assets/photoGallery/assets/15.jpg'
 
 
-
-
-
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";

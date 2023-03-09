@@ -110,7 +110,7 @@ export default function App( {afterSernd , btnColorHandeler} ) {
           />
         </div>
         <div className={Styles.inputContainer}>
-          <label>Message*</label>
+          <label>Üzenet*</label>
           <textarea
             type="text"
             name="message"

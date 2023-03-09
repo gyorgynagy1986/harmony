@@ -12,9 +12,9 @@ import sofa from '../../public/assets/icons/sofa.svg'
 import icon9 from '../../public/assets/icons/9.svg'
 
 const apartmentsTitle = {
-  a1: 'Egy hálószobás apartman',
-  a2: 'Két hálószobás apartman',
-  a3: 'Egy hálószobás apartman'
+  a1: 'Egyhálószobás apartman',
+  a2: 'Családi apartman',
+  a3: 'Stúdió apartman'
 }
 
 const beds = {
@@ -61,7 +61,7 @@ const CardContent = ( {button} ) => {
       <h3 className={Styles.h3Cardcontent}>Főbb paraméterek :</h3>
       </div>
       <div>
-       <CardContentPar />
+       <CardContentPar button={button} />
       </div>
    </>
   )
