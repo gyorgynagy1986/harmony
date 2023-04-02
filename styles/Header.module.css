@@ -1,6 +1,6 @@
 
 .container {
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom: 100px;
     padding-left: 32px;
     padding-right: 32px;
@@ -158,22 +158,21 @@
 .btn {
     margin-bottom: 60px;
     margin-top: 40px;
-    font-family: 'Open Sans';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 17px;
     line-height: 25px;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     border: none;
     cursor: pointer;
     color: #FFFFFF;
-    width: 200px;
+    width: 180px;
     height: 45px; 
-   /* background: #7F7262; */
-    background: #3C5549;
-    border-radius: 4px;
-    box-shadow: 0px 15px 25px -4px rgba(150, 150, 150, 0.24);
+    background: linear-gradient(96.11deg, #3C5549 -26.6%, #176741 331.5%);
+    box-shadow: 4px 3px 20px rgba(0, 0, 0, 0.17);
+    border-radius: 3px;
     transition: all 125ms ease-in-out;
 }
 
@@ -213,7 +212,7 @@
 
 .btn:hover {
     /*background: #918373; */
-    background: #527966;
+    background: linear-gradient(96.11deg, #597e6c -26.6%, #176741 331.5%);
 
 }
 

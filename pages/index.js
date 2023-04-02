@@ -28,7 +28,6 @@ export default function Home() {
         <title>Harmony Apartments </title>
       </Head>
       <Header />
-      <main>
         <section>
           <Apartments />
         </section>
@@ -41,7 +40,6 @@ export default function Home() {
         <section>
          <Direction />
         </section>
-      </main>
     </>
   )
 }
