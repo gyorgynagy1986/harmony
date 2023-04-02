@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import Styles from '../styles/Contact.module.css'
 
-
-
-
 export default function App( {afterSernd , btnColorHandeler} ) {
   
   const [send, setSend] = useState('Üzenet küldése')
@@ -14,7 +11,6 @@ export default function App( {afterSernd , btnColorHandeler} ) {
     message: "",
    
   });
-
 
   const emailhandeler = () => {
     setTimeout(() => {
@@ -69,6 +65,8 @@ export default function App( {afterSernd , btnColorHandeler} ) {
       console.log('this is done')
       emailhandeler();
     });
+
+    
   };
   return (
     <div className="App">

@@ -7,6 +7,7 @@ export default function Document() {
        <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css' rel='stylesheet' />
       </Head >
       <body>
+       <Main />
         <NextScript />
       </body>
     </Html>

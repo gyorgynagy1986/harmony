@@ -1,7 +1,7 @@
 import React from 'react'
 import Styles from '../styles/NavBar.module.css'
 import Image from 'next/image'
-import logo from '../public/assets/logo.svg'
+import logo from '../public/assets/logo-nav.svg'
 import Link from 'next/link'
 import Modal from '../components/ModalBooking'
 // import styled from 'styled-components'
@@ -27,6 +27,7 @@ const NavBar = () => {
             className={Styles.logo}
             src={logo}
             alt="Harmony apartments logo"
+            priority={true}
             />
           </Link>
         <div className={Styles.rightContainer}>
