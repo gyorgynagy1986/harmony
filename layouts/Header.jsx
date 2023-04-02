@@ -10,7 +10,7 @@ const text = {
     header1: "Harmony",
     header2: "Apartments",
     btn: "kapcsolat",
-    firstItalic: "A harmony apartments kiváló hely",
+    firstItalic: "A Harmony Apartments kiváló hely",
     text: ", ahol a kényelem, az otthonosság és a nyugodt pihenés találkozik. Egy csodás kis helyszín Mórahalom központjában , a belváros szívében."
 }
 

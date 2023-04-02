@@ -163,7 +163,7 @@
     font-weight: 500;
     font-size: 17px;
     line-height: 25px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     border: none;
     cursor: pointer;
@@ -240,14 +240,10 @@
   }
 
   @media screen and (max-width: 767px) {
-    .txt {
-        font-size: 17px;
-        line-height: 30px;
-    }
 
     .span {
         
-        font-size: 17px;
+        font-size: 18px;
         line-height: 40px;
     }
 }
