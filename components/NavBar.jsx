@@ -27,7 +27,7 @@ const NavBar = () => {
             className={Styles.logo}
             src={logo}
             alt="Harmony apartments logo"
-          />
+            />
           </Link>
         <div className={Styles.rightContainer}>
         <ul className={Styles.ul}>
